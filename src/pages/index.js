@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <Box
         sx={{
-          padding: "9rem",
+          padding: "5rem",
           backgroundImage: "url('main.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -41,7 +41,7 @@ export default function Home() {
               backGroundcolor: "blue",
             }}
           >
-            <Typography sx={{ fontWeight: 700, fontSize: "3rem" }}>
+            <Typography sx={{ fontWeight: 700, fontSize: "2.1rem" }}>
               권혁진 포트폴리오
             </Typography>
             안녕하세요 발전하는 삶을 사랑하는 웹 개발자 권혁진입니다.
