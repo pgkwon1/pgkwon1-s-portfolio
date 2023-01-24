@@ -1,0 +1,38 @@
+.skillWrap {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  flex-wrap:wrap
+}
+.skillStack {
+  width: 30%;
+  background-color: white;
+  border-radius: 16px;
+  gap:60px;
+}
+.logoWrap {
+  display:flex;
+  justify-content: center;
+}
+.logo {
+  max-width:80%;
+  height: auto;
+  loading: lazy;
+
+}
+@keyframes skill-wrap {
+  from {
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translate(0, 10px);
+	}
+
+
+
+
+}
+.skillStack:hover{
+  animation: skill-wrap 0.3s linear 1;
+  animation-fill-mode: forwards;
+}
